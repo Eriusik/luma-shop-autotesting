@@ -1,0 +1,9 @@
+{
+    "name": "luma-shop-autotesting",
+    "version": "1.0.0",
+    "description": "Testing of product options and adding products to the cart",
+    "scripts": {
+      "cypress:open": "node_modules/.bin/cypress open",
+      "cypress:run": "node_modules/.bin/cypress run"
+    }
+  }
