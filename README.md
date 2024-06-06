@@ -1,5 +1,5 @@
 # luma-shop-autotesting
-This a project for launch automated tests for product page `https://magento-2.showcase-wallee.com/olivia-1-4-zip-light-jacket.html#size=166&color=49`
+This a project for launch automated tests for product page https://magento-2.showcase-wallee.com/olivia-1-4-zip-light-jacket.html#size=166&color=49
 
 ## How to launch autotests
 Clone, install and run the project using commands:
