@@ -12,19 +12,21 @@ npm run cypress:run
 
 ## Which tests are covered
 1. Check product options on the product page
-Select different sizes and different colors: product should be added to the cart in all cases
+- Select different sizes and different colors: product should be added to the cart in all cases
+
 Negative cases: 
-Product option is not selected - An error is displayed: This is a required field.
+- Product option is not selected: An error is displayed: This is a required field.
 
 2. Add to the cart different quantity of the product
-Type min quantity,  max quantity and middle (Ex. 1, 10, 100) - products should be added to the cart
+- Type min quantity,  max quantity and middle (Ex. 1, 10, 100) - products should be added to the cart
+
 Negative cases:
-quantity is 0  - An error is displayed: 'Please enter a quantity greater than 0.'
-quantity is string  - An error is displayed: 'Please enter a valid number in this field.'
-quantity is decimal  - An error is displayed: 'You cannot use decimal quantity for this product.'
+- quantity is 0  - An error is displayed: 'Please enter a quantity greater than 0.'
+- quantity is string  - An error is displayed: 'Please enter a valid number in this field.'
+- quantity is decimal  - An error is displayed: 'You cannot use decimal quantity for this product.'
 
 3. Add product to the cart several times
-Add product to the cart several times - products should be added to the cart, quantity is increased
+- Add product to the cart several times - products should be added to the cart, quantity is increased
 
 ## Test Report:
 ```
