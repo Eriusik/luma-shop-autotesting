@@ -6,6 +6,7 @@ Clone, install and run the project using commands:
 
 ```
 git clone https://github.com/Eriusik/luma-shop-autotesting.git
+cd luma-shop-autotesting
 npm install
 npm run cypress:run
 ```
